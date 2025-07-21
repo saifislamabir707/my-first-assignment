@@ -6,9 +6,15 @@
   font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    
 }
 
+body{
+    background-color: #F5F8FF;
+    height: 4043px;
+    width: 1440;
+    position: 1942px 931px;
+}
 .btn-prymary{
     background-color: #4E47FF;
     font-weight: bold;
@@ -16,7 +22,9 @@
      padding: 12px 36px;
      border: none;
      border-radius: 10px;
+    
 }
+
 .header-style{
     background-image: url(/Assets/Hero-bg.png);
 background-size: cover;
@@ -51,3 +59,80 @@ nav ul li {
 .banner,.banner-contant{
     text-align: center;
 }
+/*main styles */
+
+.mains{
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    gap: auto;
+    margin: auto;
+    justify-content: space-around;
+    margin: 20px 30px 40px 50px;
+    
+}
+.heading{
+
+    height: 49px;
+    width: 517px;
+
+}
+
+
+.description{
+    color: #252432;
+}
+
+
+
+.main-pic{
+    height:328px ;
+    width:403px ;
+    border-radius: 48px;
+    
+
+}
+
+.user-description{
+    justify-content: center;
+    height: 306px;
+    border-radius: 24px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    gap: 10px;
+    background-color: #d7d6f0;
+    margin: 116px 137px 159px 141px;
+    
+}
+.user-title{
+    text-align: center;
+    height: 45px;
+    padding-bottom: 40px;
+    font-size: 38px;
+    font-weight: bold;
+}
+.stats-grid {
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+            flex-wrap: wrap;
+           
+}
+
+.stat-item {
+        flex: 1; 
+        
+    }
+        .stat-item .number {
+        font-size: 50px;
+        font-weight: bold;
+        color: #4E47FF; 
+        margin-bottom: 5px;
+    }
+
+    .stat-item .label {
+        font-size:20pxpx ;
+        color: #4E47FF;
+    }           
