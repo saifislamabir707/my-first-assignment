@@ -11,7 +11,7 @@
 
 body{
     background-color: #F5F8FF;
-    height: 4043px;
+    height:4043;
     width: 1440;
     position: 1942px 931px;
 }
@@ -255,4 +255,44 @@ input, textarea {
   border: 1px solid #ccc;
   border-radius: 6px;
   background-color: white;
+}
+.footer {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+  color: #888;
+ height: 228px;
+ width: 1350px;
+}
+
+.footer-logo {
+  font-size: 48px;
+  font-weight: bold;
+  color: #4a47f4;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  font-size: 14px;
+  max-width: 600px;
+  margin: 0 auto 20px;
+  color: #888;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  color: #888;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #4a47f4;
 }
